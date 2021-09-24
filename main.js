@@ -1,9 +1,9 @@
 new WOW().init();
 
 let up = document.getElementsByClassName('up')
-// let swithDiv = document.getElementById('switchDiv')
+
 let switchBtn = document.getElementById('switchBtn')
-let body = document.querySelector('body')
+let body = document.getElementById('body')
 let header = document.getElementById('headerContainer')
 let about = document.getElementById('aboutCovid')
 let symptoms = document.getElementById('symptoms')
@@ -103,3 +103,6 @@ $(window).scroll(function(){
         $('.up').css('opacity' , '0')
     }
 })
+
+
+
